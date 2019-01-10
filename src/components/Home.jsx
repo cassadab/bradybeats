@@ -6,6 +6,7 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faShoppingCart} from '@fortawesome/free-solid-svg-icons';
 import {faFileContract} from '@fortawesome/free-solid-svg-icons';
 import Button from '@material-ui/core/Button';
+import HomeCard from './HomeCard';
 import grey from '@material-ui/core/colors/grey';
 
 
@@ -20,6 +21,7 @@ const circleIcon = {
 const center = {
     textAlign: 'center'
 };
+const iconSize = '6x';
 
 function Home(props) {
     const {classes} = props;
@@ -32,14 +34,10 @@ function Home(props) {
                 <Grid container spacing={0}>
                     <Grid item xs={2}/>
                     <Grid item xs={4} className={"sector"}>
-                        <FontAwesomeIcon icon={faShoppingCart} size={"6x"} style={circleIcon}/>
-                        <h1>Beat Store</h1>
-                        <Button variant={"outlined"}>Browse</Button>
+                        <HomeCard icon={faShoppingCart} size={iconSize} title={'Beat Store'} btnText={'Browse'}/>
                     </Grid>
                     <Grid item xs={4} className={"sector"}>
-                        <FontAwesomeIcon icon={faFileContract} size={"6x"} style={circleIcon}/>
-                        <h1>Licensing Options</h1>
-                        <Button variant={"outlined"}>Browse</Button>
+                        <HomeCard icon={faFileContract} size={iconSize} title={'Licensing Options'} btnText={'Browse'}/>
                     </Grid>
                     <Grid item xs={2}/>
                 </Grid>
