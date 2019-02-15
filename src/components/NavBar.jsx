@@ -6,6 +6,9 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
+import Badge from '@material-ui/core/Badge';
+import MailIcon from '@material-ui/icons/Mail';
+import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 
 const styles = {
     root: {
@@ -26,12 +29,13 @@ function NavBar(props) {
         <div className={classes.root}>
             <AppBar position="static">
                 <Toolbar>
-                    <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
-                        <MenuIcon />
+                <Typography variant="h6" color="inherit" className={classes.grow}>
+                </Typography>
+                    <IconButton color="inherit">
+                        <Badge badgeContent={1} color="secondary">
+                            <ShoppingCartIcon />
+                        </Badge>
                     </IconButton>
-                    <Typography variant="h6" color="inherit" className={classes.grow}>
-                        BradyBeats
-                    </Typography>
                 </Toolbar>
             </AppBar>
         </div>

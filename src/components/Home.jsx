@@ -30,7 +30,7 @@ function Home(props) {
             <LazyHero imageSrc={image} opacity={0.5} color="black" style={heroStyle}>
                 <h1 className={"white"}>BradyBeats</h1>
             </LazyHero>
-            <div style={center}>
+            <div style={center} className={'menu'}>
                 <Grid container spacing={0}>
                     <Grid item xs={2}/>
                     <Grid item xs={4} className={"sector"}>

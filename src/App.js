@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Home from "./components/Home";
 import BeatStore from "./components/BeatStore";
+import NavBar from "./components/NavBar";
 
 class App extends Component {
     render() {
@@ -24,6 +25,7 @@ class App extends Component {
               </header>
             </div>*/
             <div>
+                <NavBar/>
                 <Home/>
                 <BeatStore />
             </div>

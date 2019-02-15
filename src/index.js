@@ -8,12 +8,16 @@ import grey from '@material-ui/core/colors/grey';
 import CssBaseline from '@material-ui/core/CssBaseline';
 
 const primaryColor = grey[800];
+const secondaryColor = grey[900];
 
 const theme = createMuiTheme({
     palette: {
         type:'dark',
         primary: {
             main: primaryColor,
+        },
+        secondary: {
+            main: secondaryColor,
         },
         background: {
             default: primaryColor,

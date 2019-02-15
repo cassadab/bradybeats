@@ -18,30 +18,6 @@
 .App-link {
   color: #61dafb; }
 
-.white {
-  color: white; }
-
-.sector {
-  color: white;
-  text-align: center; }
-
-.store {
-  margin: 5% 0 5% 0;
-  text-align: center;
-  background-color: black;
-}
-
-.track-wrapper {
-  padding: 5% 0 5% 0;
-}
-
-.buy-button {
-  margin-top: 17%;
-}
-.track {
-  margin-bottom: 10px;
-}
-
 .buy {
   p {
     color: white;
@@ -53,9 +29,44 @@
   text-align: center;
 }
 
+.buy-button {
+  margin-top: 17%;
+}
+
 .buy-grid {
   text-align: center;
   margin-top: 10%;
+}
+
+.menu {
+  margin-bottom: 8%;
+}
+  
+.sector {
+  color: white;
+  border: none;
+  text-align: center; }
+
+.store {
+  h1 {
+    color: white;
+  }
+
+  padding: 5% 0 5% 0;
+  text-align: center;
+  background-color: black;
+}
+
+.track {
+  margin-bottom: 10px;
+}
+
+.track-wrapper {
+  padding-bottom: 5%;
+}
+
+.white {
+  color: white; 
 }
 
 @keyframes App-logo-spin {

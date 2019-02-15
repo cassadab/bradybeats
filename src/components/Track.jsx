@@ -17,12 +17,12 @@ class Track extends React.Component {
                         <div className={'buy'}>
                             <div className={'buy-grid'}>
                                 <Grid container spacing={0}>
-                                    <Grid item xl={6}>
+                                    <Grid item xl={6} lg={6} md={6}>
                                         <div className={'buy-button'}>
-                                            <Button variant={'outlined'}>Buy Now</Button>
+                                            <Button variant={'outlined'}>Add to Cart</Button>
                                         </div>
                                     </Grid>
-                                    <Grid item xl={5}>
+                                    <Grid item xl={5} lg={5} md={5}>
                                         <p><strong>KEY:</strong> Cm</p>
                                         <p><strong>BPM:</strong> 129</p>
                                     </Grid>
