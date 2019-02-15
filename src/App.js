@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
-import NavBar from "./components/NavBar";
 import Home from "./components/Home";
+import BeatStore from "./components/BeatStore";
 
 class App extends Component {
     render() {
@@ -24,8 +24,8 @@ class App extends Component {
               </header>
             </div>*/
             <div>
-                <NavBar/>
                 <Home/>
+                <BeatStore />
             </div>
 
         );

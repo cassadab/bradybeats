@@ -1,11 +1,9 @@
 .App {
-  text-align: center;
-}
+  text-align: center; }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
+  height: 40vmin; }
 
 .App-header {
   background-color: #282c34;
@@ -15,27 +13,56 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
-}
+  color: white; }
 
 .App-link {
-  color: #61dafb;
-}
+  color: #61dafb; }
 
 .white {
-  color: white;
-}
+  color: white; }
 
 .sector {
   color: white;
+  text-align: center; }
+
+.store {
+  margin: 5% 0 5% 0;
   text-align: center;
+  background-color: black;
+}
+
+.track-wrapper {
+  padding: 5% 0 5% 0;
+}
+
+.buy-button {
+  margin-top: 17%;
+}
+.track {
+  margin-bottom: 10px;
+}
+
+.buy {
+  p {
+    color: white;
+  }
+  background-color: #0f0f0e;
+  height: 100%;
+  border-top: darkgray 3px solid;
+  border-right: none;
+  text-align: center;
+}
+
+.buy-grid {
+  text-align: center;
+  margin-top: 10%;
 }
 
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
-  }
+    transform: rotate(0deg); }
   to {
-    transform: rotate(360deg);
-  }
-}
+    transform: rotate(360deg); } }
+
+/*# sourceMappingURL=App.css.map */
+
