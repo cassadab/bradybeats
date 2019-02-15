@@ -19,9 +19,10 @@
   color: #61dafb; }
 
 .buy {
-  p {
-    color: white;
-  }
+  // p {
+  //   color: white;
+  // }
+  color: white;
   background-color: #0f0f0e;
   height: 100%;
   border-top: darkgray 3px solid;
@@ -30,12 +31,15 @@
 }
 
 .buy-button {
-  margin-top: 17%;
+  text-align: center;
 }
 
 .buy-grid {
   text-align: center;
-  margin-top: 10%;
+  margin-right: 0;
+  p {
+    margin-top: 0;
+  }
 }
 
 .menu {
@@ -47,7 +51,7 @@
   border: none;
   text-align: center; }
 
-.store {
+#store {
   h1 {
     color: white;
   }

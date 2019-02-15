@@ -34,10 +34,10 @@ function Home(props) {
                 <Grid container spacing={0}>
                     <Grid item xs={2}/>
                     <Grid item xs={4} className={"sector"}>
-                        <HomeCard icon={faShoppingCart} size={iconSize} title={'Beat Store'} btnText={'Browse'}/>
+                        <HomeCard icon={faShoppingCart} size={iconSize} title={'Beat Store'} btnText={'Browse'} btnLink={'#store'}/>
                     </Grid>
                     <Grid item xs={4} className={"sector"}>
-                        <HomeCard icon={faFileContract} size={iconSize} title={'Licensing Options'} btnText={'Browse'}/>
+                        <HomeCard icon={faFileContract} size={iconSize} title={'Licensing Options'} btnText={'Browse'} btnLink={'#licensing'}/>
                     </Grid>
                     <Grid item xs={2}/>
                 </Grid>
