@@ -18,15 +18,14 @@ class Track extends React.Component {
     render() {
         return (
             <div className={'track'}>
-                <Grid container spacing={0}>
-                    <Grid item xs={1}/>
-                    <Grid item xs={2}>
+                <Grid container spacing={0} justify={"center"}>
+                    <Grid item xl={2} lg={2} md={2} sm={12} xs={12}>
                         <div className={'buy'}>
                             <h4>{this.props.title}</h4>
                             <div className={'buy-grid'}>
-                                <Grid container spacing={0}>
-                                    <Grid item xl={2} lg={2} md={2}></Grid>
-                                    <Grid alignContent={"center"} item xl={4} lg={4} md={4}>
+                                <Grid container spacing={16} justify={"center"}>
+                                    <Grid item xl={2} lg={2} md={2} sm={0} xs={0}></Grid>
+                                    <Grid item xl={4} lg={4} md={4}>
                                         <p><strong>KEY:</strong> {this.props.scale}</p>
                                     </Grid>
                                     <Grid item xl={4} lg={4} md={4}>
@@ -44,11 +43,10 @@ class Track extends React.Component {
                                     </div>
                         </div>
                     </Grid>
-                    <Grid item xs={8}>
+                    <Grid item xl={8} lg={8} md={8} sm={12} xs={12}>
 
                         <SoundPlayer url={this.props.url}/>
                     </Grid>
-                    <Grid item xs={1}/>
 
                 </Grid>
             </div>
