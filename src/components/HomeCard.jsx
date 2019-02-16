@@ -1,6 +1,5 @@
 import React from 'react';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faShoppingCart} from "@fortawesome/free-solid-svg-icons";
 import Button from "@material-ui/core/Button/Button";
 var scrollToElement = require('scroll-to-element');
 

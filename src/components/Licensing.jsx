@@ -1,19 +1,6 @@
 import React from 'react';
-import LazyHero from 'react-lazy-hero';
-import image from './mix.jpg';
 import Grid from '@material-ui/core/Grid';
-import Button from '@material-ui/core/Button';
-import HomeCard from './HomeCard';
-import grey from '@material-ui/core/colors/grey';
-import SoundPlayer from "./SoundPlayer";
-import Track from "./Track";
-import Card from '@material-ui/core/Card';
 import LicensingCard from './LicensingCard';
-import { func } from 'prop-types';
-
-const iconSize = '6x';
-
-
 
 class Licensing extends React.Component {
     constructor(props) {

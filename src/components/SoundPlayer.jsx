@@ -1,9 +1,5 @@
 import React from 'react';
 
-const circleIcon = {
-    //color: grey,
-};
-
 class SoundPlayer extends React.Component {
     constructor(props) {
         super(props);
