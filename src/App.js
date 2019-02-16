@@ -4,6 +4,7 @@ import './App.css';
 import Home from "./components/Home";
 import BeatStore from "./components/BeatStore";
 import NavBar from "./components/NavBar";
+import Licensing from './components/Licensing';
 
 class App extends Component {
     render() {
@@ -27,7 +28,8 @@ class App extends Component {
             <div>
                 <NavBar/>
                 <Home/>
-                <BeatStore />
+                <BeatStore/>
+                <Licensing/>
             </div>
 
         );

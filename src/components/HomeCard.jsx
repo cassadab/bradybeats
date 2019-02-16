@@ -16,13 +16,6 @@ class HomeCard extends React.Component {
         this.handleClick = this.handleClick.bind(this);
     }
 
-    /**
-     * Handles the button click of the Home Card
-     */
-    handleClick() {
-        scrollToElement('#store');
-    }
-
     render() {
         return (
             <div>
@@ -34,10 +27,14 @@ class HomeCard extends React.Component {
         );
     }
 
+        /**
+     * Handles the button click of the Home Card
+     */
+    handleClick() {
+        scrollToElement(this.props.btnLink);
+    }
+
 
 }
-
-
-
 
 export default HomeCard;

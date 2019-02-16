@@ -24,7 +24,7 @@ class Track extends React.Component {
                         <div className={'buy'}>
                             <h4>{this.props.title}</h4>
                             <div className={'buy-grid'}>
-                                <Grid alignContent={"center"} container spacing={0}>
+                                <Grid container spacing={0}>
                                     <Grid item xl={2} lg={2} md={2}></Grid>
                                     <Grid alignContent={"center"} item xl={4} lg={4} md={4}>
                                         <p><strong>KEY:</strong> {this.props.scale}</p>
@@ -40,7 +40,7 @@ class Track extends React.Component {
 
                             </div>
                             <div className={'buy-button'}>
-                                        <Button alignContent={"center"} variant={'outlined'} >Add to Cart</Button>
+                                        <Button variant={'outlined'} >Add to Cart</Button>
                                     </div>
                         </div>
                     </Grid>

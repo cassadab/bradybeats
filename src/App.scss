@@ -19,9 +19,6 @@
   color: #61dafb; }
 
 .buy {
-  // p {
-  //   color: white;
-  // }
   color: white;
   background-color: #0f0f0e;
   height: 100%;
@@ -42,10 +39,42 @@
   }
 }
 
+.center {
+  text-align: center;
+}
+
+.license-details{
+  font-size: 16px !important;
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    margin: 3% 0 3% 0;
+  }
+}
+
+#licensing {
+  padding: 5% 0 5% 0;
+  text-align: center;
+  color: white;
+}
+
+.licensing-card {
+  border-top: red 5px solid;
+  background-color: white !important;
+  color: black;
+}
+
 .menu {
   margin-bottom: 8%;
 }
-  
+
+.section {
+  padding: 5% 0 5% 0;
+}
+
 .sector {
   color: white;
   border: none;
