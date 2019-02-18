@@ -25,12 +25,13 @@ function NavBar(props) {
     const { classes } = props;
     return (
         <div className={classes.root}>
-            <AppBar position="static">
+            <AppBar position="fixed" color="secondary">
                 <Toolbar>
                 <Typography variant="h6" color="inherit" className={classes.grow}>
+                    BradyBeats
                 </Typography>
                     <IconButton color="inherit">
-                        <Badge badgeContent={1} color="secondary">
+                        <Badge badgeContent={0} color="secondary">
                             <ShoppingCartIcon />
                         </Badge>
                     </IconButton>
