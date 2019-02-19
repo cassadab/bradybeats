@@ -32,8 +32,6 @@ function Home(props) {
                     </Grid>
                     <Grid item xs={2}/>
                 </Grid>
-
-
             </div>
         </div>
     )

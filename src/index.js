@@ -6,6 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core';
 import grey from '@material-ui/core/colors/grey';
 import CssBaseline from '@material-ui/core/CssBaseline';
+import { BrowserRouter } from 'react-router-dom';
 
 const primaryColor = grey[800];
 const secondaryColor = grey[900];
@@ -31,12 +32,13 @@ const theme = createMuiTheme({
 
 console.log(theme);
 
-ReactDOM.render(
+const app = <BrowserRouter>
     <MuiThemeProvider theme={theme}>
         <CssBaseline/>
         <App />
-    </MuiThemeProvider>,
-    document.getElementById('root'));
+    </MuiThemeProvider>
+</BrowserRouter>
+ReactDOM.render(app, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
