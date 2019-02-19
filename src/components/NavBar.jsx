@@ -7,6 +7,7 @@ import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
 import Badge from '@material-ui/core/Badge';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
+import CloseIcon from '@material-ui/icons/Close';
 import Modal from 'react-modal';
 import Cart from './Cart';
 
@@ -72,7 +73,11 @@ class NavBar extends React.Component {
                     className={"modal-content"}
                     overlayClassName={"modal-overlay"}
                     contentLabel="Example Modal">
-                    <button onClick={this.toggleModal}>Close</button>
+                    <div className={"close-cart"}>
+                        <IconButton color="inherit" onClick={this.toggleModal}>
+                            <CloseIcon />
+                        </IconButton>
+                    </div>
                     <Cart />
                 </Modal>
                 <AppBar position="fixed" color="secondary">
